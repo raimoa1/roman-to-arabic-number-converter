@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Monotype', sans-serif;
+  font-size: 16px;
+}
+
+.main {
+  padding:0 15px;
+}
+
+form {
+  width: 300px;
+}
+
+input {
+  &.button {
+    background: #eeeeee;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  &.input-field {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 7px;
+  }
+  margin: 5px;
+}

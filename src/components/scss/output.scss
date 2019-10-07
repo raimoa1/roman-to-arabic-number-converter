@@ -1,0 +1,13 @@
+output {
+  display: block;
+  margin: 5px;
+  width: 300px;
+}
+
+.output-field-ok {
+  overflow-wrap: break-word;
+}
+
+.output-field-catch {
+  color: red;
+}
